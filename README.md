@@ -27,7 +27,7 @@ larafony-docs/
 This repository serves as the single source of truth for all Larafony documentation. It's consumed by:
 
 - **[larafony.com](https://larafony.com)** - Official documentation website
-- **[larafony-mcp](https://github.com/...)** - MCP server for AI assistants
+- **[larafony-mcp](https://github.com/DJWeb-Damian-Jozwiak/larafony-mcp-assistant)** - MCP server for AI assistants
 
 ### File Format
 
@@ -72,4 +72,4 @@ The `meta.json` file defines the documentation structure:
 
 ## License
 
-MIT License - see [LICENSE](LICENSE)
+MIT License. Larafony-docs is open-sourced software licensed under the [MIT license](https://opensource.org/license/MIT).
