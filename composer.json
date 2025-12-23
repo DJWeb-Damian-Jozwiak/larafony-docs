@@ -1,0 +1,22 @@
+{
+    "name": "larafony/docs",
+    "description": "Official documentation for Larafony Framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damian Jozwiak",
+            "email": "kontakt@masterphp.eu"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larafony\\Docs\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

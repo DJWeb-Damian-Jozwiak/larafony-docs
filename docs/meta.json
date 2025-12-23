@@ -1,0 +1,131 @@
+{
+  "title": "Larafony Documentation",
+  "description": "Official documentation for Larafony Framework - Modern PHP 8.5 framework built for clarity",
+  "version": "1.0.0",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "icon": "rocket-takeoff",
+      "order": 1,
+      "pages": [
+        {"file": "index.md", "title": "Introduction", "slug": "index"},
+        {"file": "structure.md", "title": "Project Structure", "slug": "structure"},
+        {"file": "bootstrap.md", "title": "Application Bootstrap", "slug": "bootstrap"}
+      ]
+    },
+    {
+      "id": "architecture",
+      "title": "Architecture",
+      "icon": "diagram-3",
+      "order": 2,
+      "pages": [
+        {"file": "container.md", "title": "Container (PSR-11)", "slug": "container"},
+        {"file": "config.md", "title": "Configuration & .env", "slug": "config"},
+        {"file": "auth.md", "title": "Authorization (RBAC)", "slug": "auth"},
+        {"file": "cache.md", "title": "Cache (PSR-6)", "slug": "cache"}
+      ]
+    },
+    {
+      "id": "http",
+      "title": "HTTP Layer",
+      "icon": "globe",
+      "order": 3,
+      "pages": [
+        {"file": "controllers.md", "title": "Controllers & Routing", "slug": "controllers"},
+        {"file": "middleware.md", "title": "Middleware (PSR-15)", "slug": "middleware"},
+        {"file": "http-client.md", "title": "HTTP Client (PSR-18)", "slug": "http-client"}
+      ]
+    },
+    {
+      "id": "database",
+      "title": "Database",
+      "icon": "database",
+      "order": 4,
+      "pages": [
+        {"file": "schema-builder.md", "title": "Schema Builder & Migrations", "slug": "schema-builder"},
+        {"file": "query-builder.md", "title": "Query Builder", "slug": "query-builder"},
+        {"file": "models.md", "title": "Models & Relationships", "slug": "models"}
+      ]
+    },
+    {
+      "id": "views",
+      "title": "Views & Validation",
+      "icon": "eye",
+      "order": 5,
+      "pages": [
+        {"file": "views.md", "title": "Views & Blade Templates", "slug": "views"},
+        {"file": "inertia.md", "title": "Inertia.js & Vue", "slug": "inertia"},
+        {"file": "validation.md", "title": "DTO Validation", "slug": "validation"}
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "icon": "shield-lock",
+      "order": 6,
+      "pages": [
+        {"file": "encryption.md", "title": "Encryption", "slug": "encryption"},
+        {"file": "session-cookies.md", "title": "Sessions & Cookies", "slug": "session-cookies"}
+      ]
+    },
+    {
+      "id": "communication",
+      "title": "Communication",
+      "icon": "envelope",
+      "order": 7,
+      "pages": [
+        {"file": "mail.md", "title": "Sending Emails", "slug": "mail"}
+      ]
+    },
+    {
+      "id": "utilities",
+      "title": "Utilities",
+      "icon": "tools",
+      "order": 8,
+      "pages": [
+        {"file": "logging.md", "title": "Logging (PSR-3)", "slug": "logging"},
+        {"file": "events.md", "title": "Event System (PSR-14)", "slug": "events"}
+      ]
+    },
+    {
+      "id": "async",
+      "title": "Async & Real-Time",
+      "icon": "lightning-charge",
+      "order": 9,
+      "pages": [
+        {"file": "queue-jobs.md", "title": "Queue & Jobs", "slug": "queue-jobs"},
+        {"file": "websockets.md", "title": "WebSockets", "slug": "websockets"}
+      ]
+    },
+    {
+      "id": "debugging",
+      "title": "Debugging",
+      "icon": "bug",
+      "order": 10,
+      "pages": [
+        {"file": "debugbar.md", "title": "DebugBar & Eager Loading", "slug": "debugbar"},
+        {"file": "error-handling-web.md", "title": "Web Error Pages", "slug": "error-handling/web"},
+        {"file": "console-debugging.md", "title": "Console Debugging", "slug": "error-handling/console"}
+      ]
+    },
+    {
+      "id": "bridges",
+      "title": "Bridges",
+      "icon": "plug",
+      "order": 11,
+      "pages": [
+        {"file": "overview.md", "title": "Overview", "slug": "overview"},
+        {"file": "guzzle.md", "title": "Guzzle HTTP", "slug": "guzzle"},
+        {"file": "monolog.md", "title": "Monolog Logging", "slug": "monolog"},
+        {"file": "symfony-mailer.md", "title": "Symfony Mailer", "slug": "symfony-mailer"},
+        {"file": "flysystem.md", "title": "Flysystem Storage", "slug": "flysystem"},
+        {"file": "carbon.md", "title": "Carbon Clock", "slug": "carbon"},
+        {"file": "phpdotenv.md", "title": "PHP dotenv", "slug": "phpdotenv"},
+        {"file": "twig.md", "title": "Twig Templates", "slug": "twig"},
+        {"file": "smarty.md", "title": "Smarty Templates", "slug": "smarty"},
+        {"file": "debugbar.md", "title": "PHP DebugBar", "slug": "debugbar"}
+      ]
+    }
+  ]
+}
